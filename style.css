@@ -788,3 +788,63 @@ footer {
     background: #888;
     margin: 12px auto 0;
 }
+/* =========================
+   MOBILE MENU
+========================= */
+
+.menu-button {
+    display: none;
+
+    background: none;
+
+    border: none;
+
+    color: white;
+
+    font-size: 28px;
+
+    cursor: pointer;
+}
+
+
+@media (max-width: 600px) {
+
+    nav {
+        position: relative;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+
+        position: absolute;
+
+        top: 50px;
+
+        right: 0;
+
+        background: #151515;
+
+        width: 180px;
+
+        padding: 15px;
+
+        border: 1px solid #292929;
+
+        border-radius: 8px;
+
+        flex-direction: column;
+
+        gap: 15px;
+
+        text-align: center;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+}
