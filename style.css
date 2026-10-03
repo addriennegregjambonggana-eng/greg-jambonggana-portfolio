@@ -848,3 +848,61 @@ footer {
     }
 
 }
+/* =========================
+   THEME BUTTON
+========================= */
+
+.theme-button {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+
+/* LIGHT MODE */
+
+body.light-mode {
+    background: #f5f5f5;
+    color: #111;
+}
+
+body.light-mode header {
+    background: #f5f5f5;
+}
+
+body.light-mode .logo,
+body.light-mode nav ul li a {
+    color: #111;
+}
+
+body.light-mode .services,
+body.light-mode .about,
+body.light-mode footer {
+    background: #e9e9e9;
+}
+
+body.light-mode .portfolio,
+body.light-mode .contact {
+    background: #f5f5f5;
+}
+
+body.light-mode .service-card,
+body.light-mode .project-card,
+body.light-mode .about-details div {
+    background: white;
+    border-color: #ddd;
+}
+
+body.light-mode .description,
+body.light-mode .service-card p,
+body.light-mode .project-info span,
+body.light-mode .about-text > p {
+    color: #555;
+}
+
+body.light-mode .theme-button {
+    color: #111;
+}
