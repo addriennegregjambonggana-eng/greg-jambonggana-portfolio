@@ -764,3 +764,12 @@ footer {
 .about-photo img:hover {
     transform: scale(1.03);
 }
+/* PROJECT IMAGE EFFECT */
+
+.project-card img {
+    transition: 0.4s ease;
+}
+
+.project-card:hover img {
+    transform: scale(1.05);
+}
