@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
 
     <meta name="viewport"
@@ -11,10 +10,17 @@
     <title>Greg Jambonggana | Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
+
+    <!-- LOADING SCREEN -->
+
+    <div id="loader">
+        <div class="loader-circle"></div>
+        <p>Loading Portfolio...</p>
+    </div>
+
 
     <!-- NAVIGATION -->
 
@@ -27,16 +33,32 @@
             </a>
 
             <ul class="nav-links" id="navLinks">
-    <li><a href="#home">Home</a></li>
-    <li><a href="#services">Services</a></li>
-    <li><a href="#portfolio">Portfolio</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#contact">Contact</a></li>
-</ul>
 
-<button class="menu-button" id="menuButton">
-    ☰
-</button>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="#services">Services</a>
+                </li>
+
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
+            </ul>
+
+            <button class="menu-button" id="menuButton">
+                ☰
+            </button>
 
         </nav>
 
@@ -62,12 +84,10 @@
             </h2>
 
             <p class="description">
-
                 I'm a 2nd year BS Animation and
                 Multimedia Arts student interested
                 in animation, multimedia, design,
                 and web development.
-
             </p>
 
             <a href="#portfolio" class="button">
@@ -89,9 +109,7 @@
     </section>
 
 
-</body>
-
-</html>    <!-- SERVICES -->
+    <!-- SERVICES -->
 
     <section id="services" class="services">
 
@@ -116,9 +134,9 @@
                 <h3>
                     Graphic Design
                 </h3>
-                    Crescent Fury
 
                 <p>
+                    Crescent Fury -
                     Esports Logo Design
                 </p>
 
@@ -160,10 +178,11 @@
 
             </div>
 
-
         </div>
 
     </section>
+
+
     <!-- PORTFOLIO -->
 
     <section id="portfolio" class="portfolio">
@@ -179,8 +198,6 @@
 
         <div class="portfolio-container">
 
-
-            <!-- PROJECT 1 -->
 
             <div class="project-card">
 
@@ -204,8 +221,6 @@
             </div>
 
 
-            <!-- PROJECT 2 -->
-
             <div class="project-card">
 
                 <img
@@ -228,8 +243,6 @@
             </div>
 
 
-            <!-- PROJECT 3 -->
-
             <div class="project-card">
 
                 <img
@@ -251,189 +264,203 @@
 
             </div>
 
-
         </div>
 
     </section>
-<!-- ABOUT -->
-
-<section id="about" class="about">
-
-    <div class="section-title">
-
-        <p>GET TO KNOW ME</p>
-
-        <h2>About Me</h2>
-
-    </div>
 
 
-    <div class="about-container">
+    <!-- ABOUT -->
 
-        <div class="about-photo">
+    <section id="about" class="about">
 
-            <img
-                src="images/profile.jpg"
-                alt="Greg Jambonggana"
-            >
+        <div class="section-title">
+
+            <p>GET TO KNOW ME</p>
+
+            <h2>About Me</h2>
 
         </div>
 
 
-        <div class="about-text">
+        <div class="about-container">
 
-            <h3>I'm Greg Jambonggana</h3>
+            <div class="about-photo">
 
-            <p>
-                I am a 2nd year BS Animation and
-                Multimedia Arts student who is
-                passionate about creativity,
-                animation, multimedia, and design.
-            </p>
+                <img
+                    src="images/profile.jpg"
+                    alt="Greg Jambonggana"
+                >
 
-            <p>
-                I am also learning web development
-                to improve my technical skills and
-                create creative and interactive
-                websites.
-            </p>
+            </div>
 
 
-            <div class="about-details">
+            <div class="about-text">
 
-                <div>
-                    <strong>Course</strong>
-                    <span>BS Animation and Multimedia Arts</span>
-                </div>
+                <h3>
+                    I'm Greg Jambonggana
+                </h3>
 
-                <div>
-                    <strong>Year Level</strong>
-                    <span>2nd Year</span>
-                </div>
+                <p>
+                    I am a 2nd year BS Animation and
+                    Multimedia Arts student who is
+                    passionate about creativity,
+                    animation, multimedia, and design.
+                </p>
 
-                <div>
-                    <strong>Interests</strong>
-                    <span>Animation, Design & Web Development</span>
-                </div>
+                <p>
+                    I am also learning web development
+                    to improve my technical skills and
+                    create creative and interactive
+                    websites.
+                </p>
 
-                <div>
-                    <strong>Goal</strong>
-                    <span>Become a creative multimedia professional, Travel the world and marry a beautiful woman.</span>
+
+                <div class="about-details">
+
+                    <div>
+                        <strong>Course</strong>
+                        <span>
+                            BS Animation and Multimedia Arts
+                        </span>
+                    </div>
+
+                    <div>
+                        <strong>Year Level</strong>
+                        <span>
+                            2nd Year
+                        </span>
+                    </div>
+
+                    <div>
+                        <strong>Interests</strong>
+                        <span>
+                            Animation, Design & Web Development
+                        </span>
+                    </div>
+
+                    <div>
+                        <strong>Goal</strong>
+                        <span>
+                            Become a creative multimedia
+                            professional and travel the world.
+                        </span>
+                    </div>
+
                 </div>
 
             </div>
 
         </div>
 
-    </div>
+    </section>
 
-</section>
-<!-- CONTACT -->
 
-<section id="contact" class="contact">
+    <!-- CONTACT -->
 
-    <div class="section-title">
-        <p>LET'S CONNECT</p>
-        <h2>Contact Me</h2>
-    </div>
+    <section id="contact" class="contact">
 
-    <div class="contact-content">
+        <div class="section-title">
 
-        <h3>Have a project in mind?</h3>
+            <p>LET'S CONNECT</p>
 
-        <p>
-            I'm always interested in learning,
-            creating, and exploring new ideas
-            in animation, multimedia, and design.
-        </p>
-
-        <a
-            href="mailto:addriennejambonggana@gmail.com"
-            class="button"
-        >
-            Email Me
-        </a>
-
-        <div class="social-links">
-
-            <a
-                href="https://github.com/YOUR-USERNAME"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                GitHub
-            </a>
-
-            <a
-                href="https://www.facebook.com/Greg Jambonggana"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                Facebook
-            </a>
+            <h2>Contact Me</h2>
 
         </div>
 
-    </div>
 
-</section>
+        <div class="contact-content">
 
-<footer>
-    <p>© 2026 Greg Jambonggana | My Portfolio</p>
-</footer>
-<script>
+            <h3>
+                Have a project in mind?
+            </h3>
 
-const menuButton = document.getElementById("menuButton");
+            <p>
+                I'm always interested in learning,
+                creating, and exploring new ideas
+                in animation, multimedia, and design.
+            </p>
 
-const navLinks = document.getElementById("navLinks");
-
-const themeButton = document.getElementById("themeButton");
-
-
-menuButton.addEventListener("click", function() {
-
-    navLinks.classList.toggle("show");
-
-});
+            <a
+                href="mailto:addriennejambonggana@gmail.com"
+                class="button"
+            >
+                Email Me
+            </a>
 
 
-themeButton.addEventListener("click", function() {
+            <div class="social-links">
 
-    document.body.classList.toggle("light-mode");
+                <a
+                    href="https://github.com/YOUR-USERNAME"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    GitHub
+                </a>
 
-    if (document.body.classList.contains("light-mode")) {
+                <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Facebook
+                </a>
 
-        themeButton.textContent = "🌙";
+            </div>
 
-    } else {
+        </div>
 
-        themeButton.textContent = "☀️";
-
-    
+    </section>
 
 
+    <!-- FOOTER -->
 
-</script>
-window.addEventListener("load", function() {
+    <footer>
 
-    const loader = document.getElementById("loader");
+        <p>
+            © 2026 Greg Jambonggana | My Portfolio
+        </p>
 
-    loader.style.opacity = "0";
+    </footer>
 
-    setTimeout(function() {
 
-        loader.style.display = "none";
+    <!-- JAVASCRIPT -->
 
-    }, 500);
+    <script>
 
-});
-<body>
+        const menuButton =
+            document.getElementById("menuButton");
 
-    <!-- LOADING SCREEN -->
+        const navLinks =
+            document.getElementById("navLinks");
 
-    <div id="loader">
-        <div class="loader-circle"></div>
-        <p>Loading Portfolio...</p>
-    </div>
 
-    <!-- NAVIGATION -->
+        menuButton.addEventListener("click", function() {
+
+            navLinks.classList.toggle("show");
+
+        });
+
+
+        /* LOADING SCREEN */
+
+        window.addEventListener("load", function() {
+
+            const loader =
+                document.getElementById("loader");
+
+            loader.style.opacity = "0";
+
+            setTimeout(function() {
+
+                loader.style.display = "none";
+
+            }, 500);
+
+        });
+
+    </script>
+
+</body>
+
+</html>
