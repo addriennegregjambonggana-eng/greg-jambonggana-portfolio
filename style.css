@@ -753,3 +753,14 @@ footer {
     transform: translateY(-3px);
     box-shadow: 0 8px 20px rgba(255, 255, 255, 0.12);
 }
+/* PROFILE PHOTO EFFECT */
+
+.home-photo img,
+.about-photo img {
+    transition: 0.4s ease;
+}
+
+.home-photo img:hover,
+.about-photo img:hover {
+    transform: scale(1.03);
+}
